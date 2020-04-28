@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="test suite" parallel="methods" thread-count="1">
+    <test name="Regression 1">
+        <classes>
+            <class name="test.java.Tests.Test">
+            <methods>
+                <include name="cannotDoUnitTasks"/>
+
+
+            </methods>
+            </class>
+
+        </classes>
+
+
+    </test>
+</suite>
